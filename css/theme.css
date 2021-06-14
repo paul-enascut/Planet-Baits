@@ -1,0 +1,741 @@
+/* Custom styles */
+.container {
+	width: 960px;
+}
+
+/* 
+	**************  header *************** 
+*/
+
+header .left {
+	display: block;
+	width: 160px;
+	height: 44px;
+	background: url('../imgs/planetbaits-logo.png') no-repeat;
+	text-indent: -9999px;
+	float: left;
+	margin-top: 36px;
+
+}
+
+header .right {
+	display: block;
+	width: 113px;
+	height: 82px;
+	background: url('../imgs/logo-cart.png') no-repeat;
+	float: right;
+	padding-top: 21px;
+	padding-left: 16px;
+	font: bold 13px Arial, sans-serif;
+	color: #fff;
+}
+
+header .right img {
+	margin-right: 11px;
+}
+
+/* ******* first nav ******* */
+
+header .first ul {
+	float: right;
+	list-style: none;
+	margin-top: 18px;
+}
+
+header .first ul li {
+	float: left;
+	font: 13px Arial, sans-serif;
+	margin-right: 26px;
+}
+
+header .first ul li a {
+	color: #99a3a7;
+}
+
+header .first ul li a:hover {
+	text-decoration: none;
+	color: #566165;
+}
+
+header .first ul li:last-child {
+	margin-right: 0;
+}
+
+/* ******* second nav ******* */
+
+header nav.second {
+	background: -webkit-linear-gradient(bottom, #d9e3e7, #ecf2f5);
+	background: -o-linear-gradient(bottom, #d9e3e7, #ecf2f5);
+	background: -moz-linear-gradient(bottom, #d9e3e7, #ecf2f5);
+	background: linear-gradient(bottom, #d9e3e7, #ecf2f5);
+	margin-bottom: 20px;
+}
+
+header nav.second ul {
+	line-height: 70px;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0; 
+	width: 100%;
+}
+
+header nav.second ul li {
+	float: left;
+	border-top: 1px solid #d9e3e7;
+	border-bottom: 1px solid #d9e3e7;
+	height: 72px;
+}
+
+header nav.second ul li:first-child {
+	border-left: 1px solid #d9e3e7;
+}
+
+header nav.second ul li:last-child {
+	border-right: 1px solid #d9e3e7;
+	display: block;
+	width: 315px;
+	height: 72px;
+}
+
+header nav.second ul li a {
+	font: 15px Arial, sans-serif;
+	color: #566165;
+	padding: 26px 30px;
+}
+
+header nav.second li.active,
+header nav.second li:nth-of-type(1):hover,
+header nav.second li:nth-of-type(2):hover,
+header nav.second li:nth-of-type(3):hover,
+header nav.second li:nth-of-type(4):hover,
+header nav.second li:nth-of-type(5):hover,
+header nav.second li:nth-of-type(6):hover {
+	background: -webkit-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: -o-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: -moz-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: linear-gradient(bottom, #0099e1, #14b1eb);
+	border: none;
+}
+
+header nav.second li.active a,
+header nav.second li:hover a {
+	color: #fff;
+}
+
+header nav.second li a:hover {
+	text-decoration: none;
+}
+
+/*
+	**************  main content *************** 
+*/
+
+/* ******* search & lang ******* */
+section form {
+	float: left;
+}
+
+section form input[type="text"],
+section form input[type="email"]{
+	height: 30px;
+	width: 400px;
+	padding-left: 10px;
+}
+
+section form input[type="submit"] {
+	background: -webkit-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: -o-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: -moz-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: linear-gradient(bottom, #0099e1, #14b1eb);
+	color: #fff;
+	border: none;
+	font: 13px Arial, sans-serif;
+	width: 80px;
+	height: 30px;
+	margin-left: 10px;
+	letter-spacing: 0.5px;
+}
+
+section .lang {
+	float: right;
+}
+section .lang p,
+section .lang img {
+	float: left;
+}
+
+section .lang p {
+	font: 13px Arial, sans-serif;
+	color: #a8a7a7;
+	line-height: 28px;
+}
+
+section .lang img {
+	border: 2px solid #a2b8c0;
+	margin-left: 9px;
+}
+
+section .lang a:nth-child(3) img {
+	margin-left: 5px;
+	border: none;
+	margin-top: 2px;
+}
+
+/* ******* banner ******* */
+section .banner  {
+	width: 960px;
+	height: 320px;
+	margin-top: 11px;
+	background: url('../imgs/diver.png');
+	position: relative;
+}
+
+section .banner h2 {
+	font: 34px Arial, sans-serif;
+	color: #0b558f;
+	position: absolute;
+	top: 73px;
+	right: 76px;
+	text-align: center;
+}
+
+section .banner h2 span {
+	font-size: 50px;
+	color: #fff;
+	font-weight: 900;
+	text-shadow: 1px 1px #000;
+}
+
+section .banner .indicators {
+	position: absolute;
+	bottom: 13px;
+	right: 30px;
+}
+
+/* ******* primary section ******* */
+section section aside.col-md-3 {
+	padding-left: 0;
+}
+section section aside h3{
+	width: 100%;
+	background: #00aee7;
+	font: 16px 'Bebas Neue', Arial, sans-serif;
+	color: #fff;
+	line-height: 50px;
+	padding-left: 20px;
+	font-weight: 600;
+	letter-spacing: 0.8px;
+}
+
+section section aside ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+section section aside ul li {
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	position: relative;
+}
+
+section section aside ul li a {
+	width: 100%;
+	height: 100%;
+	padding-left: 36px;
+	font: 13px Arial, sans-serif;
+	line-height: 30px;
+	color: #4d4e53;
+}
+
+aside ul li:hover img {
+	display: block;
+}
+
+section section aside ul li img {
+	position: absolute;
+	top: 10px;
+	left: 18px;
+	display: none;
+}
+
+aside ul li a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ******* secundary section ******* */
+section section section h3 {
+	background: #dee9ed;
+	font: 16px 'Bebas Neue', Arial, sans-serif;
+	line-height: 50px;
+	padding-left: 10px;
+	color: #566165;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+section section section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+section section section ul li.col-md-4 {
+	padding: 0;
+}
+
+section section section ul li.col-md-4 {
+	width: 233px;
+}
+
+.thumbnail{
+	padding: 0;
+	border: 0;
+	text-align: justify;
+}
+
+section section section .col-md-4:nth-child(1),
+section section .col-md-4:nth-child(4) { 
+ 	margin-right: 10px; 
+}
+section section section .col-md-4:nth-child(3),
+section section .col-md-4:nth-child(6) {
+	margin-left: 10px; 
+}
+
+section section section .thumbnail img {
+	border: 1px solid #e1e1e1;
+	margin-bottom: 15px;
+}
+
+section section section ul li p {
+	font: 13px Arial, sans-serif;
+	line-height: 18px;
+	color: #555;
+	padding-right: 10px;
+	margin-bottom: 27px;
+}
+
+section section section ul li p.price {
+	font: 18px 'Bebas Neue', Arial, sans-serif;
+	margin-bottom: 20px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+}
+
+button {
+	font: 14px 'Bebas Neue', Arial, sans-serif;
+	line-height: 35px;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+button.active{
+	width: 80px;
+	background: #00aee7;
+}
+
+button.inactive {
+	background: #566165;
+	width: 100px;
+}
+
+
+/* 
+	**************  footer *************** 
+*/
+footer {
+	margin-top: 20px;
+}
+footer .row p {
+	font: 13px Arial, sans-serif;
+	line-height: 18px;
+	color: #636363;
+	border-top: 1px solid #bdbdbd;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+
+footer .row p a {
+	color: #566165;
+}
+
+
+
+
+
+/*	*********************
+        About Us
+    *********************
+*/
+
+/* ******* primary section ******* */
+section .section-about .col-md-9 {
+	padding-left: 0;
+	margin-bottom: 5px;
+}
+
+section .section-about .col-md-3 {
+	padding-right: 0;
+}
+
+section .section-about h2 {
+	background: #dee9ed;
+	font: 16px 'Bebas Neue', Arial, sans-serif;
+	line-height: 50px;
+	color: #566165;
+	margin-top: 0;
+	padding-left: 10px;
+}
+
+section .section-about article h3 {
+	font: 16px 'Bebas Neue', Arial, sans-serif;;
+	color: #566165;
+	margin-top: 35px;
+	margin-bottom: 16px;
+	letter-spacing: 1.8px;
+	background: none;
+	padding-left: 0;
+}
+
+section .section-about h4 {
+	font: 15px Arial, sans-serif;
+	margin-top: 22px;
+	color: #566165;
+	letter-spacing: 0.5px;
+}
+
+section .section-about p {
+	font: 13px Arial, sans-serif;
+	color: #555555;
+}
+
+section .section-about ul li {
+	margin-bottom: 20px;
+}
+
+section .section-about ul li a {
+	padding-left: 20px;
+	color: #4d4e53;
+}
+
+section .section-about ul li a:hover {
+	text-decoration: none;
+}
+
+section .section-about ul li:first-child {
+	position: relative;
+}
+
+section .section-about ul li:last-child {
+	margin-bottom: 12px;
+}
+
+section .section-about ul li img{
+	position: absolute;
+	top: 4px;
+	left: 0;
+}
+
+/* ******* aside ******* */
+
+section .section-about aside h2 {
+	background: #00aee7;
+	color: white;
+	letter-spacing: 2px;
+	padding-left: 20px;
+}
+
+section .section-about aside div {
+	width: 233px;
+}
+
+section .section-about aside .clearfix {
+	margin-top: 20px;
+}
+
+section .section-about aside p.price{
+	font: 18px 'Bebas Neue', Arial, sans-serif;
+	margin-bottom: 20px;
+	float: left;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+section .section-about aside p.option {
+	float: right;
+	margin-top: 5px;	
+}
+
+section .section-about aside p.option a {
+	color: #566165;
+	text-decoration: none;
+}
+
+section .section-about aside p.option a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+/*	*********************
+        Contact
+    *********************
+*/
+
+/* ******* contact info ******* */
+section .section-about dl {
+	margin: 34px 0 40px 20px;
+	color: #4d4e53;
+}
+
+section .section-about h2 {
+	font-weight: 600;
+	letter-spacing: 0.8px;
+}
+
+section .section-about dl dt {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+section .section-about dl dd {
+	font-size: 13px;
+	margin-left: 27px;
+	line-height: 20px;
+	margin-bottom: 17px;
+}
+
+section .section-about dl dd:last-child {
+	text-decoration: underline;
+}
+
+/* ******* form ******* */
+
+section .section-about form {
+	margin-top: 26px;
+	width: 100%;
+}
+
+section .section-about section div.row {
+	margin: 0;
+}
+
+section .section-about section div.row .col-md-9{
+	padding-right: 0;
+}
+
+section .section-about form #name,
+section .section-about form #email {
+	width: 320px;
+	height: 38px;
+}
+
+section .section-about form .notice {
+	width: 190px;
+	height: 50px;
+	border: 1px solid #a9dba9;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 7px;
+	box-shadow: 1px -1px 10px #a9dba9 inset;
+	visibility: hidden;
+}
+
+section .section-about form .boxname {
+	box-sizing: border-box;
+}
+
+section .section-about form .boxname:hover .boxsucccess {
+	visibility: visible;
+}
+
+section .section-about form .boxname .boxsucccess {
+	float: right;
+	margin-top: -38px;
+}
+
+section .section-about form .boxname img#bnimg {
+	position: absolute;
+	top: 8px;
+	left: -30px;
+	display: none;
+}
+
+section .section-about form .boxname p#bnp {
+	padding-left: 8px;
+	font-size: 11px;
+	color: #e95e5e;
+	display: none;
+}
+
+section .section-about form .boxname:hover img#bnimg {
+	display: block;
+}
+
+section .section-about form .boxname:hover p#bnp {
+	display: block;
+	position: absolute;
+}
+
+section .section-about form .boxname:hover #name{
+	border: 1px solid #e95e5e;
+	box-shadow: 1px -1px 10px #e95e5e inset;
+}
+
+section .section-about form .boxsucccess img {
+	float: left;
+	margin-left: 6px;
+	margin-top: 3px;
+	margin-right: 6px;
+}
+ section .section-about form textarea {
+ 	width: 100%;
+ 	height: 105px;
+ 	text-indent: 10px;
+ }
+
+ section .section-about form  #email,
+ section .section-about form  label[for=email] {
+	margin-top: 10px;
+ }
+
+ section .section-about form label[for="name"],
+ section .section-about form label[for="email"],
+ section .section-about form label[for="password"] {
+	padding-top: 8px;
+}
+
+ section .section-about form  #message,
+ section .section-about form  label[for=message],
+ section .section-about form  #check {
+ 	margin-top: 22px; 
+ }
+
+ section .section-about form  label[for=check] {
+ 	margin-top: 27px;
+ }
+
+ section .section-about form #check {
+ 	width: 150px;
+ }
+
+section .section-about form input[type="submit"] {
+ 	width: 100px;
+ 	height: 40px;
+ 	margin-top: 25px; 
+ 	margin-bottom: 10px;
+ 	font-weight: bold;
+ 	font: 14px 'Bebas Neue', Arial, sans-serif;
+ 	letter-spacing: 0.7px;
+}
+
+section .section-about form .chinese {
+	margin-left: 30px;
+}
+
+section .section-about form label {
+	font-weight: normal;
+}
+
+/* ******* aside ******* */
+section aside .thumbnail{
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*	*********************
+        login register
+    *********************
+*/
+
+/* ******* form ******* */
+section .section-about form label[for="password"],
+section .section-about form  #password,
+section .section-about form label[for="repassword"],
+section .section-about form  #repassword {
+	margin-top: 22px
+}
+
+section .section-about form input[id="password"],
+section .section-about form input[id="repassword"]{
+	width: 320px;
+	height: 38px;
+}
+
+section .section-about form input[value="REGISTER"] {
+	line-height: 40px;
+	width: 125px;
+	background: #566165;
+	color: #fff;
+	font: 14px 'Bebas Neue', Arial, sans-serif;
+	margin-left: 0;
+	letter-spacing: 1.3px;
+}
+
+/* ******* user login ******* */
+section aside .input-info h2 {
+	background: #566165;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+section aside .input-info p#warn{
+	margin: 0;
+	padding-left: 15px;
+	color: #e95e5e;
+	line-height: 30px;
+	background: #e8c8c8;
+}
+
+section aside .input-info .inputs {
+	padding: 13px 13px 26px;
+	background: #dee9ed;
+}
+
+section aside .input-info .inputs input {
+	margin-bottom: 13px;
+}
+
+section aside .input-info .inputs input[type="email"], 
+section aside .input-info .inputs input[type="text"] {
+	width: 205px;
+}
+
+section aside .input-info .inputs a {
+	font-size: 11px;
+	line-height: 18px;
+	color: #4d4e53;
+	float: right;
+	margin-top: 11px;
+}
+
+section aside .input-info .inputs input[type="submit"] {
+	width: 100px;
+	height: 30px;
+	background: -webkit-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: -o-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: -moz-linear-gradient(bottom, #0099e1, #14b1eb);
+	background: linear-gradient(bottom, #0099e1, #14b1eb);
+	color: #fff;
+	font: 16px 'Bebas Neue', Arial, sans-serif;
+	border: none;
+	padding-top: 0;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+
+
